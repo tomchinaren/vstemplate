@@ -29,4 +29,8 @@
       </Folder>
     </Project>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>CMSProjectTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=88470e8358f49323</Assembly>
+    <FullClassName>CMSProjectTemplateWizard.ChildWizardImpl</FullClassName>
+  </WizardExtension>
 </VSTemplate>

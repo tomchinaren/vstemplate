@@ -84,7 +84,9 @@
     <None Include="CMSProjectTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="CMSProjectTemplate.vstemplate" />
+    <VSTemplate Include="CMSProjectTemplate.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -109,7 +111,9 @@
     <Content Include="CMSTemplate\Domain_Repositories\Domain.Repositories.csproj" />
     <Content Include="CMSTemplate\Domain_Repositories\__TemplateIcon.ico" />
     <Content Include="CMSTemplate\Infrastructure\MyTemplate.vstemplate" />
-    <Content Include="CMSTemplate\Infrastructure\Infrastructure.csproj" />
+    <Content Include="CMSTemplate\Infrastructure\Infrastructure.csproj">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="CMSTemplate\Infrastructure\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>
