@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>CMSProjectTemplate</Name>
+    <Description>CMSProjectTemplate</Description>
+    <Icon>CMSProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>8f1e4d5f-4e9c-4b3b-8b75-2ebea4fffbc5</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CMSProjectTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Application">
+        CMSTemplate\Application\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Domain">
+        CMSTemplate\Domain\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Domain.Repositories">
+        CMSTemplate\Domain_Repositories\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Infrastructure">
+        CMSTemplate\Infrastructure\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+
+  </TemplateContent>
+</VSTemplate>
